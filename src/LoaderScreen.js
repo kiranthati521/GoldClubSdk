@@ -3,8 +3,8 @@ import { ActivityIndicator, View } from 'react-native';
 import { DEVICE_TOKEN, EDITDATA, LOGINONCE, MOBILE_NUMBER, PROFILEIMAGE, ROLEID, ROLENAME, SELECTEDCOMPANY, TERMS_CONDITIONS, USERMENU, USER_ID, USER_NAME, WHATSAPPCHECKED, downloadFileToLocal, getDeviceId, retrieveData, storeData } from './assets/Utils/Utils';
 import APIResponse from './assets/Utils/verifyOtp.json';
 import { useNavigation } from '@react-navigation/native';
-import { setUser } from '../redux/store/slices/UserSlice';
-import { updateCompanyStyles } from '../redux/store/slices/CompanyStyleSlice';
+import { setUser } from '../src/redux/store/slices/UserSlice';
+import { updateCompanyStyles } from '../src/redux/store/slices/CompanyStyleSlice';
 import { useDispatch, useSelector } from 'react-redux';
 
 const LoaderScreen = () => {
